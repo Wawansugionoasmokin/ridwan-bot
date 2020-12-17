@@ -13,9 +13,9 @@ const moment = require("moment-timezone")
 const fs = require("fs")
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:RIZKY\n' // full name
-            + 'ORG:Creator RIZKY BOT;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6282387804410:+62 823-8780-4410\n' // WhatsApp ID + phone number
+            + 'FN:Ridwan\n' // full name
+            + 'ORG:Creator Mridwanalb;\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=6285718038695:+62 857-1803-8695\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 
 const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
@@ -24,12 +24,12 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: 'Rizky Bot',
-    instagram: 'https://instagram.com/_rizkyfadilah8',
-    nomer: 'wa.me/62387804410',
+    A187: 'Ridwan-bot',
+    instagram: 'https://instagram.com/mridwanalb_',
+    nomer: 'wa.me/6285718038695',
     aktif: 'TERGANTUNG JARINGAN',
-    youtube: 'https://www.youtube.com/channel/UCwuFtaAemHVPO67Aopv6BXg',
-    whatsapp: 'https://chat.whatsapp.com/LLCSpSL2S8A1NJwTnMIgWY',
+    youtube: 'https://chat.whatsapp.com/Cf1I15OrJgGJlxoULR0ZAL',
+    whatsapp: 'https://chat.whatsapp.com/DUjeDryzXjdE5Cj632Z5Yq',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
